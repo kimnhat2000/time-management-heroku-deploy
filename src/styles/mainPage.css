@@ -1,0 +1,42 @@
+.main-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tasks-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.all-inputs .find-task{
+    background-image: url(/pictures/icons/search.png);
+    background-position: 0px 7px;
+    background-size: 30px 30px;
+    padding: 5px 5px 5px 40px;
+    background-repeat: no-repeat;
+}
+
+.all-inputs button{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+
+.all-inputs button:hover{
+    background-color: rgb(102, 138, 32);
+}

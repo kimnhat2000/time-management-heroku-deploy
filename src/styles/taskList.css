@@ -1,0 +1,83 @@
+.task-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-button .delete{
+    background-color: red;
+    color: white;
+    font-weight: bold;  
+}
+
+.delete:hover{
+    background-color: rgb(196, 9, 9);
+}
+
+.task-button .edit{
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;  
+}
+
+.edit:hover{
+    background-color: rgb(117, 156, 38);
+}
+
+.list-container{
+    height: 80%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.working-list .start-task{
+    padding: 5px 5px 5px 30px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/pictures/icons/start.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: blue;
+}
+
+.working-list h4{
+    font-weight: normal;
+    font-size: 0.8em;
+    margin: 5px;
+}
+
+.finished-tasks{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.finished-tasks h4{
+    margin: 5px 0px 5px 5px;
+}
+
+.finished-work-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.finished-work{
+    font-size: 0.8em;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.finished-work-container button{
+    padding: 15px;
+    background-color: rgb(255,255,255);
+    background-image: url(/pictures/icons/minus.png);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    opacity: 0.5
+}

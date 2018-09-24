@@ -1,0 +1,66 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow:2px 5px 1px 2px rgb(100,100,100);
+    border-radius: 10px;
+    border:4px solid rgb(2,0,0);
+    padding: 0px 10px 10px 10px;
+    margin: 20px;
+    background-image: url(/pictures/border/topLeft.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 160px 50px;
+}
+
+.form-container .close-button{
+    font-size: 0.8em;
+    align-self: flex-end;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+}
+
+.close-button{
+    background-color: rgb(206, 7, 7);
+}
+.close-button:hover{
+    background-color: rgb(177, 4, 4);
+}
+
+.form-container .name-input{
+    background-image: url(/pictures/icons/task.png);
+    background-position: 0px 4px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 35px;
+    background-size: 30px 30px;
+}
+
+.name-input:hover{
+    background-color: rgba(50, 50, 50, 0.4);
+    border-radius: 5px;
+}
+
+.form-container .save{
+    align-self: flex-end;
+    padding: 5px 15px 5px 15px;
+    font-size: 0.8em;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.save:hover{
+    background-color: rgb(4, 4, 168);
+}
+
+.form-container h3{
+    margin: 5px;
+    font-size: 0.8em;
+    color: red;
+}
+
+
